@@ -2,7 +2,7 @@
 
 var crypto = require("crypto")
     ,algorithm = 'RSA-SHA1'
-    ,publicKeyString = 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp/sAN9MnVKWjoreKuUxogticxto59KGz/b/SlIrubPzNSy+GCLOsfhd9uv+sjevdfJPc1HFYi1KhUSt32kHcpr+vq9ZgEP6QfusFm+cAQcPtcjRFvRDvSk/MT3nviP+/m7kuYthBIO6sLYKE7r67DtzE9jjkU28MQuitmJxmB2M9NhSePP7qKKAR52hl4DmImdoSYRbqrTr1AubMSr9X7QF/lBJRRPEpjmId3GoXCOTXfMJR/+/El7MxBqve63GdaOHxqnQ/O9mJjwfzM2hQlUqkcETALUZnjvFwJalbHTEeivYKKmaQ9Xho6guq4oh4yEuG+P1b2Vnh5U9IKmxyQwIDAQAB'
+    ,publicKeyString = 'rsa public key'
     ,base64EncodedPublicKey = '';
 
 var generateBase64EncodedPublicKey = function(publicKeyStr) {
