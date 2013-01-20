@@ -1,4 +1,5 @@
 #!/usr/bin/osascript
+# Switch VPN services.
 on alfred_script(q)
   set disconnectVPN to false
   set vpnNamePrefix to "CiscoIPSec-"
